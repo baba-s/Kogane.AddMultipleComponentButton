@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Kogane.Internal
 {
-    [FilePath( "ProjectSettings/Kogane/AddMultipleComponentButtonSetting.asset", FilePathAttribute.Location.ProjectFolder )]
+    [FilePath( "UserSettings/Kogane/AddMultipleComponentButtonSetting.asset", FilePathAttribute.Location.ProjectFolder )]
     internal sealed class AddMultipleComponentButtonSetting : ScriptableSingleton<AddMultipleComponentButtonSetting>
     {
         [SerializeField] private bool                             m_isEnable;
