@@ -66,7 +66,7 @@ namespace Kogane.Internal
 
             if ( children.Contains( m_addMultipleComponentButton ) ) return;
 
-            m_addMultipleComponentButton ??= new Button
+            m_addMultipleComponentButton ??= new()
             {
                 text = "Add Multiple Component",
                 style =
